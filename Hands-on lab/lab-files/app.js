@@ -13,7 +13,7 @@ var userSession = require('./routes/session');
 
 var app = express();
 
-var databaseUrl = 'mongodb://localhost:27017/best-for-you-organics';
+var databaseUrl = 'mongodb://best-for-you-db:AdVXhlRmIT6SQFTiva6H7NNgxKWIrmbxorHKFTzSFwPZiFIpPBEDDqdds7RJrT2faHe2SF2YwXbvFxde9fcmdA==@best-for-you-db.documents.azure.com:10255/best-for-you-organics?ssl=true&replicaSet=globaldb';
 
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
